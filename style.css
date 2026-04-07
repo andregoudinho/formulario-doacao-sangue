@@ -1,0 +1,8 @@
+body{
+    background-image: url(assets/img.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+form{
+    width: 40%;
+}
