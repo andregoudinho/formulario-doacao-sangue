@@ -43,9 +43,15 @@ document.getElementById("formDoacao").addEventListener("submit", function (e) {
         email: email,
         idade: idade,
         peso: peso,
-        tipoSanguineo: tipoSanguineo
-    }
+        tipoSanguineo: tipoSanguineo,
+        telefone: telefone,
+        cidade: cidade,
+        estado: estado
+    };
 
+    doadores.push(doador);
+    console.log(doadores);
+    mostrarDoadores();
+    document.getElementById("formDoacao").reset();
+});
 
-
-}
