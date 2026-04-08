@@ -50,14 +50,17 @@ document.getElementById("formDoacao").addEventListener("submit", function (e) {
     };
 
     doadores.push(doador);
-    console.log(doadores);
     mostrarDoadores();
     document.getElementById("formDoacao").reset();
+    alert("Cadastro realizado com sucesso!")
 });
 
 function mostrarDoadores() {
     let lista = document.getElementById("listaDoadores");
+
+    lista.style.display = "block";
     lista.innerHTML = "<h3>Doadores cadastrados:</h3>";
+
     doadores.forEach(function (d) {
         lista.innerHTML += `
         <p> 

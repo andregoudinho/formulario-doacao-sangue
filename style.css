@@ -9,11 +9,11 @@ form{
     width: 40%;
 }
 h1{
-    font-size: 60;
+    font-size: 90;
     color: red;
 }
 h4{
-    font-size: 20;
+    font-size: 25;
 }
 input{
     width: 450px;
@@ -27,4 +27,8 @@ button{
     width: 100px;
     padding: 10px;
 
+}
+.listaDoadores{
+    display: none;
+    margin top: 20px;
 }
